@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, Twitter, Instagram, Linkedin, MapPin, ArrowUpRight } from 'lucide-react';
 
@@ -84,13 +83,14 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-4">
               {[
-                { icon: Twitter, href: '#' },
-                { icon: Linkedin, href: '#' },
-                { icon: Instagram, href: '#' }
+                { icon: Twitter, href: '#', label: 'Twitter' },
+                { icon: Linkedin, href: '#', label: 'LinkedIn' },
+                { icon: Instagram, href: '#', label: 'Instagram' }
               ].map((social, i) => (
                 <a 
                   key={i}
                   href={social.href} 
+                  aria-label={`Follow us on ${social.label}`}
                   className="w-12 h-12 border border-white/10 flex items-center justify-center hover:bg-[#C6A75E] hover:border-[#C6A75E] hover:text-[#0F1E2E] transition-all duration-500 rounded-sm"
                 >
                   <social.icon size={20} />

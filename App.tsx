@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -8,6 +7,7 @@ import PracticeAreasPage from './pages/PracticeAreasPage';
 import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
 import BackToTop from './components/BackToTop';
+import Newsletter from './components/Newsletter';
 
 const App: React.FC = () => {
   const [currentPath, setCurrentPath] = useState(window.location.hash || '#/');
@@ -40,11 +40,12 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
+    <div className="flex flex-col min-h-screen bg-[#F7F5F0]">
+      <Navbar currentPath={currentPath} />
       <main className="flex-grow">
         {renderPage()}
       </main>
+      <Newsletter />
       <Footer />
       <BackToTop />
     </div>
