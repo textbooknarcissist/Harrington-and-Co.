@@ -54,10 +54,10 @@ const PracticeAreasPage: React.FC = () => {
       <section className="relative min-h-screen w-full overflow-hidden flex flex-col items-center justify-center text-center px-6">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000" 
-            alt="Corporate Landscape" 
-            className="w-full h-full object-cover object-center grayscale brightness-[0.3] scale-105"
-          />
+  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000&auto=webp" 
+  alt="Corporate Landscape" 
+  className="w-full h-full object-cover object-center grayscale brightness-[0.3] scale-105"
+/>
           <div className="absolute inset-0 bg-[#0F1E2E]/60 backdrop-blur-[2px]"></div>
         </div>
 
@@ -136,10 +136,10 @@ const PracticeAreasPage: React.FC = () => {
               <div className="absolute -top-6 -left-6 w-32 h-32 border-l border-t border-[#C6A75E]/30"></div>
               <div className="relative overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1593032465175-481ac7f402a1?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Elite Advocacy detail" 
-                  className="w-full h-[550px] object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-1000"
-                />
+  src="https://images.pexels.com/photos/3183172/pexels-photo-3183172.jpeg?auto=compress&cs=tinysrgb&w=1200" 
+  alt="Elite Advocacy detail" 
+  className="w-full h-[550px] object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-1000"
+/>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0F1E2E] via-transparent to-transparent opacity-60"></div>
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 border-r border-b border-[#C6A75E]/30"></div>
