@@ -6,6 +6,8 @@ import AboutPage from './pages/AboutPage';
 import PracticeAreasPage from './pages/PracticeAreasPage';
 import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsPage from './pages/TermsPage';
 import BackToTop from './components/BackToTop';
 import Newsletter from './components/Newsletter';
 
@@ -34,6 +36,10 @@ const App: React.FC = () => {
         return <BlogPage />;
       case '#/contact':
         return <ContactPage />;
+      case '#/privacy':
+        return <PrivacyPolicyPage />;
+      case '#/terms':
+        return <TermsPage />;
       default:
         return <HomePage />;
     }
