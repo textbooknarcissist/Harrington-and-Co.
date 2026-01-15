@@ -53,15 +53,7 @@ const ContactSection: React.FC = () => {
           </div>
 
           <div 
-            className="p-8 md:p-12 rounded-sm shadow-[0_40px_100px_rgba(0,0,0,0.5)] relative overflow-hidden group border border-[#C6A75E]/20 transition-transform duration-500 hover:-translate-y-2"
-            style={{
-              backgroundColor: '#0F1E2E',
-              backgroundImage: `
-                linear-gradient(to right, rgba(198, 167, 94, 0.08) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(198, 167, 94, 0.08) 1px, transparent 1px)
-              `,
-              backgroundSize: '40px 40px'
-            }}
+            className="p-8 md:p-12 rounded-sm shadow-[0_40px_100px_rgba(0,0,0,0.5)] relative overflow-hidden group border border-[#C6A75E]/20 transition-transform duration-500 hover:-translate-y-2 bg-[#0F1E2E] bg-[linear-gradient(to_right,rgba(198,167,94,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(198,167,94,0.08)_1px,transparent_1px)] bg-[size:40px_40px]"
           >
             {/* Elegant corner accent */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-[#C6A75E]/10 to-transparent rounded-bl-full -z-0"></div>
